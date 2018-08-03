@@ -1,0 +1,7 @@
+{{extend 'layout.html'}}
+<h1>This is the basics/reques_args.html template</h1>
+{{=BEAUTIFY(response._vars)}}
+
+<ul>
+    {{=msg}}
+</ul>
