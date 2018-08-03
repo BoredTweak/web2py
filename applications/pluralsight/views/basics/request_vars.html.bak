@@ -3,11 +3,13 @@
 {{=BEAUTIFY(response._vars)}}
 
 <div class='jumbotron'>
-    The total is {{=total}}
+    <h1>
+        The total is {{=total}}
+    </h1>
 </div>
 
 <form method='post'>
-        <input type='text' name='num1'/>
-        <input type='text' name='num2'/>
-        <input type='submit' name='add'/>
+    <input type='text' name='num1'/>
+    <input type='text' name='num2'/>
+    <input type='submit' name='add'/>
 </form>

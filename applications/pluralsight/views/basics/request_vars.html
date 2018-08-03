@@ -2,14 +2,14 @@
 <h1>This is the basics/request_vars.html template</h1>
 {{=BEAUTIFY(response._vars)}}
 
+<form method='post'>
+    <input type='text' name='num1'/>
+    <input type='text' name='num2'/>
+    <input type='submit' name='add'/>
+</form>
+
 <div class='jumbotron'>
     <h1>
         The total is {{=total}}
     </h1>
 </div>
-
-<form method='post'>
-        <input type='text' name='num1'/>
-        <input type='text' name='num2'/>
-        <input type='submit' name='add'/>
-</form>

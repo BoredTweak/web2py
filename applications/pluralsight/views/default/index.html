@@ -22,22 +22,10 @@
   <li>{{=T('You can modify this application and adapt it to your needs')}}</li>
 </ol>
 <center style="padding:50px">
-  <a class="btn btn-primary" href="{{=URL('admin','default','index')}}">
-    <i class="glyphicon glyphicon-cog"></i>
-    {{=T("admin")}}
-  </a>
-  <a class="btn btn-secondary" href="{{=URL('examples','default','index')}}">{{=T("Online examples")}}</a>
-  <a class="btn btn-secondary" href="http://web2py.com">web2py.com</a>
-  <a class="btn btn-secondary" href="http://web2py.com/book">{{=T('Documentation')}}</a>
-  <a class="btn btn-secondary" href="{{=URL('default','api_get_user_email')}}">{{=T('API Example')}}</a>
-  <a class="btn btn-secondary" href="{{=URL('default','grid/auth_user')}}">{{=T('Grid Example')}}</a>
-  <a class="btn btn-secondary" href="{{=URL('default','wiki')}}">{{=T('Wiki Example')}}</a>
+
 </center>
 {{elif 'content' in globals():}}
 {{=content}}
 {{else:}}
 {{=BEAUTIFY(response._vars)}}
 {{pass}}
-
-
-

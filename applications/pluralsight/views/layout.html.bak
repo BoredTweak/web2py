@@ -86,23 +86,23 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-2">
+        <div class="col-sm-3">
             <a class="btn btn-primary col-sm-12" href="{{=URL('admin','default','index')}}">
                 <i class="glyphicon glyphicon-cog"></i>
                 {{=T("admin")}}
             </a>
         </div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('examples','default','index')}}">{{=T("Online examples")}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="http://web2py.com">web2py.com</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="http://web2py.com/book">{{=T('Documentation')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('default','api_get_user_email')}}">{{=T('API Example')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('default','grid/auth_user')}}">{{=T('Grid Example')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('default','wiki')}}">{{=T('Wiki Example')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','helloworld')}}">{{=T('Basics')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','request_vars')}}">{{=T('Request Vars')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','request_object')}}">{{=T('Request Object')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','request_args')}}">{{=T('Request Args')}}</a></div>
-        <div class="col-sm-2"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','random_number')}}">{{=T('Random Number')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('examples','default','index')}}">{{=T("Online examples")}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="http://web2py.com">web2py.com</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="http://web2py.com/book">{{=T('Documentation')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('default','api_get_user_email')}}">{{=T('API Example')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('default','grid/auth_user')}}">{{=T('Grid Example')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('default','wiki')}}">{{=T('Wiki Example')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','helloworld')}}">{{=T('Basics')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','request_vars')}}">{{=T('Request Vars')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','request_object')}}">{{=T('Request Object')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','request_args')}}">{{=T('Request Args')}}</a></div>
+        <div class="col-sm-3"><a class="btn btn-secondary col-sm-12" href="{{=URL('./basics','random_number')}}">{{=T('Random Number')}}</a></div>
     </div>
 </div>
 
